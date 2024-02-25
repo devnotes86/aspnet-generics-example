@@ -1,5 +1,5 @@
 ﻿using Models;
-using Models.VehicleTypes;
+using Models.VehicleTypeDefinitions;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -11,16 +11,25 @@ namespace Services
 {
     public class VehiclesService : IVehiclesService
     {
-        public string GetVehicleDetails(UniversalVehicleData universalVehicleData)
+        // returning serialized JSON
+        // item will be deserialized in the view
+        public IVehicle GetVehicleDetails(UniversalVehicleData universalVehicleData)
         {
 
+            switch (universalVehicleData.VehicleType)
+            {
+                case VehicleTypes.RacingCar:
+                    return (IVehicle)new GenericVehicle<RacingCar>(universalVehicleData);
+                    break;
+                case VehicleTypes.RoadBike:
+                    return (IVehicle)new GenericVehicle<RoadBike>(universalVehicleData);
+                    break;
 
-            var carData = new GenericVehicle<Car>(universalVehicleData).Data;
+                default: throw new Exception("Vehicle type not found");
+            }
 
-            var serializedcarData = JsonConvert.SerializeObject(carData);
 
 
-            return serializedcarData;
         }
     }
 }

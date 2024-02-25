@@ -1,0 +1,33 @@
+﻿@model Models.UniversalVehicleData
+@{
+    var VehicleData = new Models.GenericVehicle<Models.VehicleTypeDefinitions.FoldingBike>(Model).Data;
+
+}
+
+<div>
+
+    <h1>@Model.VehicleName</h1>
+    <h2>Registration: @Model.RegistrationNumber</h2>
+    <h2>Type: @Model.VehicleType.ToString()</h2>
+
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Weight</th>
+                <td>@VehicleData.Weight</td>
+            </tr>
+            <tr>
+                <th>Chain</th>
+                <td>@VehicleData.Chain</td>
+            </tr>
+            <tr>
+                <th>WheelSize</th>
+                <td>@VehicleData.WheelSize</td>
+            </tr> 
+             
+        </tbody>
+    </table>
+
+
+</div>

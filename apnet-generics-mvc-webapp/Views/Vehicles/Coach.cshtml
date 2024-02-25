@@ -1,0 +1,45 @@
+﻿@model Models.UniversalVehicleData
+@{
+    var VehicleData = new Models.GenericVehicle<Models.VehicleTypeDefinitions.Coach>(Model).Data;
+
+}
+
+<div>
+
+    <h1>@Model.VehicleName</h1>
+    <h2>Registration: @Model.RegistrationNumber</h2>
+    <h2>Type: @Model.VehicleType.ToString()</h2>
+
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Engine</th>
+                <td>@VehicleData.Engine</td>
+            </tr>
+            <tr>
+                <th>PowerOutput</th>
+                <td>@VehicleData.PowerOutput</td>
+            </tr>
+            <tr>
+                <th>Transmission</th>
+                <td>@VehicleData.Transmission</td>
+            </tr>
+            <tr>
+                <th>Axles</th>
+                <td>@VehicleData.Axles</td>
+            </tr>
+            <tr>
+                <th>Weight</th>
+                <td>@VehicleData.Weight</td>
+            </tr>
+            <tr>
+                <th>MaxPassengers</th>
+                <td>@VehicleData.MaxPassengers</td>
+            </tr>
+             
+        </tbody>
+    </table>
+
+
+</div>

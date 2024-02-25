@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = apnet_generics_mvc_webapp
+build_property.RootNamespace = apnet_generics_mvc_webapp
+build_property.ProjectDir = N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\apnet-generics-mvc-webapp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\apnet-generics-mvc-webapp
+build_property._RazorSourceGeneratorDebug = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/apnet-generics-mvc-webapp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/apnet-generics-mvc-webapp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/apnet-generics-mvc-webapp/Views/Vehicles/Coach.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcQ29hY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/apnet-generics-mvc-webapp/Views/Vehicles/FoldingBike.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcRm9sZGluZ0Jpa2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/apnet-generics-mvc-webapp/Views/Vehicles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/apnet-generics-mvc-webapp/Views/Vehicles/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcTm90Rm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/apnet-generics-mvc-webapp/Views/Vehicles/RacingCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcUmFjaW5nQ2FyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/apnet-generics-mvc-webapp/Views/Vehicles/RoadBike.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcUm9hZEJpa2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/apnet-generics-mvc-webapp/Views/Vehicles/Truck.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcVHJ1Y2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/apnet-generics-mvc-webapp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/apnet-generics-mvc-webapp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/apnet-generics-mvc-webapp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-b19pwvxzsm

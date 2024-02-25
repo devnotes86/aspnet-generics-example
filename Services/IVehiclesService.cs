@@ -4,6 +4,6 @@ namespace Services
 {
     public interface IVehiclesService
     {
-        string GetVehicleDetails(UniversalVehicleData universalVehicleData);
+        IVehicle GetVehicleDetails(UniversalVehicleData universalVehicleData);
     }
 }

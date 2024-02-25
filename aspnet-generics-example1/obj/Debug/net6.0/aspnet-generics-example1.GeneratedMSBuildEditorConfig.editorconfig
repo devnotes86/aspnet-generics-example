@@ -15,3 +15,15 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\aspnet-generics-example1
 build_property._RazorSourceGeneratorDebug = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/aspnet-generics-example1/Views/Shared/Coach.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvYWNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/aspnet-generics-example1/Views/Shared/RacingCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJhY2luZ0Nhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/NEXTCLOUD_mike/DEV_NOTES86/dotnet_generics1/aspnet-generics-example1/aspnet-generics-example1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

@@ -102,6 +102,19 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Datasource/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Datasource.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Datasource.dll": {}
+        }
+      },
       "Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -286,6 +299,11 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "Datasource/1.0.0": {
+      "type": "project",
+      "path": "../Datasource/Datasource.csproj",
+      "msbuildProject": "../Datasource/Datasource.csproj"
+    },
     "Models/1.0.0": {
       "type": "project",
       "path": "../Models/Models.csproj",
@@ -299,6 +317,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Datasource >= 1.0.0",
       "Models >= 1.0.0",
       "Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -332,6 +351,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "N:\\NEXTCLOUD_mike\\DEV_NOTES86\\dotnet_generics1\\aspnet-generics-example1\\Datasource\\Datasource.csproj": {
+              "projectPath": "N:\\NEXTCLOUD_mike\\DEV_NOTES86\\dotnet_generics1\\aspnet-generics-example1\\Datasource\\Datasource.csproj"
+            },
             "N:\\NEXTCLOUD_mike\\DEV_NOTES86\\dotnet_generics1\\aspnet-generics-example1\\Models\\Models.csproj": {
               "projectPath": "N:\\NEXTCLOUD_mike\\DEV_NOTES86\\dotnet_generics1\\aspnet-generics-example1\\Models\\Models.csproj"
             },

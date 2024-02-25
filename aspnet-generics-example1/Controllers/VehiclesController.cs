@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Models;
-using Models.VehicleTypes;
+using Models.VehicleTypeDefinitions;
 using Services;
 using Newtonsoft.Json;
 
 namespace aspnet_generics_example1.Controllers
 {
-    [ApiController]
+    //[ApiController]
     [Route("[controller]")]
-    public class VehiclesController : ControllerBase
+    public class VehiclesController : Controller
     {
         private readonly IVehiclesService _vehiclesService;
         public VehiclesController(IVehiclesService vehiclesService)
@@ -16,26 +16,32 @@ namespace aspnet_generics_example1.Controllers
             _vehiclesService = vehiclesService;
         }
 
+        //[HttpGet("AllVehicles")]
+        //public async Task<string> GetAllVehicles()
+        //{
+          
+
+
+
+        //    var carData = new GenericVehicle<RoadBicycle>(carUniversalData).Data;
+
+        //    var serializedCarData = JsonConvert.SerializeObject(carData);
+
+        //    return serializedCarData;
+        //}
+
         [HttpGet("Ferrari")]
-        public async Task<string> GetFerrari()
+        public async Task<IActionResult> GetFerrari()
         {
-            var vehicle1_FerrariRaw = new UniversalVehicleData
-            {
-                DataJson = "{\"Engine\": \"2,936 cc (2.9 L) twin-turbocharged V8\", \"PowerOutput\": \"477HP\",\"Transmission\": \"5-speed manual\", \"Wheelbase\": \"2,450 mm (96.5 in)\",\"Length\": \"4,358 mm (171.6 in)\", \"Width\": \"1,970 mm (77.6 in)\",\"Height\": \"\t1,124 mm (44.3 in)\" }",
-                VehicleName = "Ferrari F40",
-                RegistrationNumber = "XD66666",
-                VehicleType = "Car"
-            };
+            var list = Datasource.VehiclesDataSource.GetVehiclesList();
 
+            var ferrari = list.FirstOrDefault(x => x.VehicleType == VehicleTypes.RacingCar);
 
-            //var ferrariData = new GenericVehicle<Car>(vehicle1_FerrariRaw).Data;
-               
-            //var serializedFerrariData = JsonConvert.SerializeObject(ferrariData);
-            var ferrariData = _vehiclesService.GetVehicleDetails(vehicle1_FerrariRaw);
+            var carData = _vehiclesService.GetVehicleDetails(ferrari);
 
-            // return serializedFerrariData;
+            var serializedCarData = JsonConvert.SerializeObject(carData);
 
-            return ferrariData;
+            return View("RacingCar", carData);
         }
 
 
@@ -43,19 +49,19 @@ namespace aspnet_generics_example1.Controllers
         public async Task<string> GetPinarello()
         {
 
-            var vehicle2_PinarelloRaw = new UniversalVehicleData
+            var bikeUniversalData = new UniversalVehicleData
             {
                 DataJson = "{ \"Cassette\": \"Sram Red XG-1290\", \"Chain\": \"sram red 12s\", \"FrontDerailleur\": \"SRAM Red ETAP AXS 12S\", \"RearDerailleur\": \"SRAM Red ETAP AXS 12S\", \"BottomBracket\": \"SRAM Red\", \"Frame\": \"TorayCa T1100 1K Dream Carbon with Nanoalloy technology, TiCR™ cable routing, Italian BB, UCI approved\", \"Fork\": \"F Onda Fork with ForkFlap™, 1.5' upper and lower steerer, Ultra Light Headset bearings\", \"WheelsAndTyres\": \"Pirelli P Zero Race 26mm - Black, 127 tpi aramid breaker. Max tyre size 28mm (width as measured)\" }",
                 VehicleName = "Pinarello Dogma",
                 RegistrationNumber = "P1111111",
-                VehicleType = "Road Bicycle"
+                VehicleType = VehicleTypes.RoadBike
             };
 
-            var ferrariData = new GenericVehicle<RoadBicycle>(vehicle2_PinarelloRaw).Data;
+            var bikeData = new GenericVehicle<RoadBicycle>(bikeUniversalData).Data;
 
-            var serializedFerrariData = JsonConvert.SerializeObject(ferrariData);
+            var serializedBikeData = JsonConvert.SerializeObject(bikeData);
 
-            return serializedFerrariData;
+            return serializedBikeData;
         }
 
 
@@ -64,19 +70,19 @@ namespace aspnet_generics_example1.Controllers
         public async Task<string> GetRomet()
         {
 
-            var romet = new UniversalVehicleData
+            var bikeUniversalData = new UniversalVehicleData
             {
                 DataJson = "{ \"Cassette\": \"Sram Red XG-1290\", \"Chain\": \"sram red 12s\", \"FrontDerailleur\": \"SRAM Red ETAP AXS 12S\",  elsAndTyres\": \"Pirelli P Zero Race 26mm - Black, 127 tpi aramid breaker. Max tyre size 28mm (width as measured)\" }",
                 VehicleName = "Romet Wigry 3",
                 RegistrationNumber = "P1111111",
-                VehicleType = "Składak"
+                VehicleType = VehicleTypes.FoldingBike
             };
 
-            var ferrariData = new GenericVehicle<RoadBicycle>(romet).Data;
+            var bikeData = new GenericVehicle<RoadBicycle>(bikeUniversalData).Data;
 
-            var serializedFerrariData = JsonConvert.SerializeObject(ferrariData);
+            var serializedBikeData = JsonConvert.SerializeObject(bikeData);
 
-            return serializedFerrariData;
+            return serializedBikeData;
         }
     }
 }

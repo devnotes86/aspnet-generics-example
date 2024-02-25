@@ -1,13 +1,20 @@
 using aspnet_generics_example1;
+using Services;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+ 
+ 
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddControllers(); 
+//builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+
+// inject VehiclesService implementation
+builder.Services.AddTransient<IVehiclesService, VehiclesService>();
+
 
 var app = builder.Build();
 
@@ -22,7 +29,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-app.MapControllers();
+app.MapControllers(); 
 
+app.UseMvc( );
 
 app.Run(); 

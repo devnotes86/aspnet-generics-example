@@ -35,3 +35,7 @@ N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\aspnet-g
 N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\aspnet-generics-example1\bin\Debug\net6.0\Models.pdb
 N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\aspnet-generics-example1\bin\Debug\net6.0\Services.dll
 N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\aspnet-generics-example1\bin\Debug\net6.0\Services.pdb
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\aspnet-generics-example1\obj\Debug\net6.0\aspnet-generics-example1.RazorAssemblyInfo.cache
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\aspnet-generics-example1\obj\Debug\net6.0\aspnet-generics-example1.RazorAssemblyInfo.cs
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\aspnet-generics-example1\bin\Debug\net6.0\Datasource.dll
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\aspnet-generics-example1\bin\Debug\net6.0\Datasource.pdb

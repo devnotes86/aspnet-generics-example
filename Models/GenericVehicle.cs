@@ -3,7 +3,7 @@ using System.Runtime.Serialization.Json;
 
 namespace Models
 {
-    public class GenericVehicle<TVehicle> : IVehicle<TVehicle>
+    public class GenericVehicle<TVehicle> : IVehicle //<TVehicle>
     {
         public GenericVehicle(UniversalVehicleData universalVehicleData)
         {

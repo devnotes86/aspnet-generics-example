@@ -1,0 +1,57 @@
+﻿@model Models.UniversalVehicleData
+@{
+    var VehicleData = new Models.GenericVehicle<Models.VehicleTypeDefinitions.RoadBike>(Model).Data;
+
+}
+
+<div>
+
+    <h1>@Model.VehicleName</h1>
+    <h2>Registration: @Model.RegistrationNumber</h2>
+    <h2>Type: @Model.VehicleType.ToString()</h2>
+
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Cassette</th>
+                <td>@VehicleData.Cassette</td>
+            </tr>
+            <tr>
+                <th>Chain</th>
+                <td>@VehicleData.Chain</td>
+            </tr>
+            <tr>
+                <th>FrontDerailleur</th>
+                <td>@VehicleData.FrontDerailleur</td>
+            </tr>
+            <tr>
+                <th>RearDerailleur</th>
+                <td>@VehicleData.RearDerailleur</td>
+            </tr>
+            <tr>
+                <th>BottomBracket</th>
+                <td>@VehicleData.BottomBracket</td>
+            </tr>
+            <tr>
+                <th>FrontDerailleur</th>
+                <td>@VehicleData.FrontDerailleur</td>
+            </tr>
+            <tr>
+                <th>Frame</th>
+                <td>@VehicleData.Frame</td>
+            </tr>
+            <tr>
+                <th>Fork</th>
+                <td>@VehicleData.Fork</td>
+            </tr>
+            <tr>
+                <th>WheelsAndTyres</th>
+                <td>@VehicleData.WheelsAndTyres</td>
+            </tr> 
+
+        </tbody>
+    </table>
+
+
+</div>

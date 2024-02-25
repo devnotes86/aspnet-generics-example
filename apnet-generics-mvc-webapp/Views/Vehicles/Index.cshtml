@@ -1,0 +1,17 @@
+﻿@model Models.ViewModels.VehiclesIndex
+@{
+    ViewData["Title"] = "Vehicles list";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Select Vehicle from list to display it's details</h1>
+    
+    <ul  >
+
+        @foreach(var v in Model.Vehicles)
+        {
+            <li class="text-left"><a href="Details/@v.Id"><b>@v.VehicleName</b></a> (@v.VehicleType)</li>
+        }
+
+    </ul>
+</div>
