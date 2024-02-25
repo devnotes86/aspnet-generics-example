@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\apnet-generics-mvc-webapp.props" />
-</Project>

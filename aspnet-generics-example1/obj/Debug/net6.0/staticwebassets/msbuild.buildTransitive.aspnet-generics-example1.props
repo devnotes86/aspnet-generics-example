@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\aspnet-generics-example1.props" />
-</Project>
