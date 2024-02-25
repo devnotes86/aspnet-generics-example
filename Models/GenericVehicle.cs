@@ -12,7 +12,6 @@ namespace Models
             RegistrationNumber = universalVehicleData.RegistrationNumber;
         }
 
-
         public string DataJson { get; set; }
 
         public string VehicleName { get; set; }
@@ -21,15 +20,14 @@ namespace Models
 
         public string VehicleType { get; set; }
 
+
+        // generic type property
         public TVehicle Data {
             
-            get {
-
-               
+            get {  
+                    // at this point - a JSON string is deserialized to an injected Type (ex Coach, RoadBike or Racing Car) - which is not known at this point - and can be added anytime, without the need of changing this code.
                     var deserializationResult = JsonConvert.DeserializeObject<TVehicle>(this.DataJson);
-                    return deserializationResult;
-          
-
+                    return deserializationResult; 
             } 
         }
 
