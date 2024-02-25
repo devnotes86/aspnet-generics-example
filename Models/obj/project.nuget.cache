@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "daLKBxR5Uicozq3rpe7sq332nwUUntPuKe/oAM9P/+TsdRW5wtLt5844YPQyOmHQUtBM/av5Rb1H0zQlNDc+vg==",
+  "success": true,
+  "projectFilePath": "N:\\NEXTCLOUD_mike\\DEV_NOTES86\\dotnet_generics1\\aspnet-generics-example1\\Models\\Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mike\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

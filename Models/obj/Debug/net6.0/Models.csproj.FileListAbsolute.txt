@@ -1,0 +1,12 @@
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\Models\bin\Debug\net6.0\Models.deps.json
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\Models\bin\Debug\net6.0\Models.dll
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\Models\bin\Debug\net6.0\Models.pdb
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\Models\obj\Debug\net6.0\Models.csproj.AssemblyReference.cache
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\Models\obj\Debug\net6.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\Models\obj\Debug\net6.0\Models.AssemblyInfoInputs.cache
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\Models\obj\Debug\net6.0\Models.AssemblyInfo.cs
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\Models\obj\Debug\net6.0\Models.csproj.CoreCompileInputs.cache
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\Models\obj\Debug\net6.0\Models.dll
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\Models\obj\Debug\net6.0\refint\Models.dll
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\Models\obj\Debug\net6.0\Models.pdb
+N:\NEXTCLOUD_mike\DEV_NOTES86\dotnet_generics1\aspnet-generics-example1\Models\obj\Debug\net6.0\ref\Models.dll

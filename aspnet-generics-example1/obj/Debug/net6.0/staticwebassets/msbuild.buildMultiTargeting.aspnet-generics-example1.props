@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\aspnet-generics-example1.props" />
+</Project>
