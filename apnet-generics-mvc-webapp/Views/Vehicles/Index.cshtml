@@ -4,13 +4,12 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Select Vehicle from list to display it's details</h1>
+    <h3>Select Vehicle from list to display it's details</h3>
     
-    <ul  >
-
+    <ul>
         @foreach(var v in Model.Vehicles)
         {
-            <li class="text-left"><a href="Details/@v.Id"><b>@v.VehicleName</b></a> (@v.VehicleType)</li>
+            <li><a href="Details/@v.Id"><b>@v.VehicleName</b></a> (@v.VehicleType)</li>
         }
 
     </ul>

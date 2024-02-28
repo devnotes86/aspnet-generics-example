@@ -11,11 +11,6 @@ namespace apnet_generics_mvc_webapp.Controllers
     [Route("Vehicles")]
     public class VehiclesController : Controller
     { 
-        public VehiclesController( )
-        {
-          
-        }
-         
         [HttpGet("Details/{id}")]
         public async Task<IActionResult> VehicleDetails(string id)
         {
@@ -34,7 +29,7 @@ namespace apnet_generics_mvc_webapp.Controllers
                 // Then inside the view that matches the VehicleType name - a GenericVehicle class will be initialized - and Generic field "Data" will be deserialized based on the class injected in this view.
                 // It means that the View is the only place, where the appropriate Type of Vehicle (ex. Models.Coach, Models.RacingCar) needs to be referenced.
                 // So there is no need to add any if/switch logic, importing types, adding additional services to manage it etc.
-                // Just having the ability to declare a generic type - that is injected in the last stage of rendering - in enough.
+                // Just having the ability to declare a generic type - that is injected in the last stage of rendering - is enough.
                 return View(viewName, vehicle);
             } 
         }

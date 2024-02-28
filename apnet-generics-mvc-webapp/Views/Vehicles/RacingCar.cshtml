@@ -1,7 +1,6 @@
 ﻿@model Models.UniversalVehicleData
 @{
-    var VehicleData = new Models.GenericVehicle<Models.VehicleTypeDefinitions.RacingCar>(Model).Data;
-
+    var VehicleData = new Models.GenericVehicle<Models.VehicleTypeDefinitions.RacingCar>(Model).Data; 
 }
 
 <div>
@@ -9,7 +8,6 @@
     <h1>@Model.VehicleName</h1>
     <h2>Registration: @Model.RegistrationNumber</h2>
     <h2>Type: @Model.VehicleType.ToString()</h2>
-
 
     <table>
         <tbody>

@@ -17,7 +17,5 @@ namespace Models
         public string RegistrationNumber { get; set; }
 
         public VehicleTypes VehicleType { get; set; }
-       
-
     }
 }
